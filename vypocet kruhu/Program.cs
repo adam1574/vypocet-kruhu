@@ -33,7 +33,6 @@ namespace vypocet_kruhu
 
                 if (polomer > 0)
                 {
-                    Console.Write("zadej prumer: ");
                     double.TryParse(Console.ReadLine(), out prumer);
                 }
                 else
@@ -45,7 +44,7 @@ namespace vypocet_kruhu
                     Console.WriteLine($"výpočet obsahu je {obsah}");
                 }
 
-
+               
                 Console.ReadLine();
             }
                
